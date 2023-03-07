@@ -1,0 +1,31 @@
+.transactionHistory {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.transactionHeader {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.transactionValue {
+    color: #8a8b8e;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.transactionValue:nth-child(even) {
+    background-color: rgb(202, 202, 202);
+}
+
+.rowHeader {
+    width: 30%;
+    padding: 10px 20px;
+    background-color: #038296;
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
